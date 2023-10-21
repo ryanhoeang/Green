@@ -5,14 +5,14 @@ function GreenBar() {
   return (
     <div className="green-bar">
       <div className="logo-left logo-circle">
-        {/* Your left logo goes here */}
+        <img className="leaf" src="/leaf.png" alt="Logo"></img>
       </div>
       <div className="search-container">
         <input type="text" className="search-bar" placeholder="Search..." />
         <div className="search-icon">&#128269;</div>
       </div>
       <div className="logo-right logo-circle">
-        {/* Your right logo goes here */}
+        <img className="profile" src="/profile.jpeg" alt="Logo"></img>
       </div>
     </div>
   );
